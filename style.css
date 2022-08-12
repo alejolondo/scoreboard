@@ -1,0 +1,124 @@
+@font-face {
+    font-family:scoreboard ;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+@font-face {
+    font-family: titulo ;
+    src: url(backsteal.regular.otf);
+}
+
+body {
+    background-image: url("5.webp");
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+    font-family: scoreboard;
+
+}
+
+h1{
+    font-size: 50px;
+    font-family: titulo;
+    text-shadow: 2px 2px 5px #f77f00;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.score-side{
+    margin: 12px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h2 {
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#home-score, #guest-score{
+    text-shadow: 2px 2px 5px #f77f00;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    height: 60px;
+    width: 90px;
+}
+
+.btn-container{
+    display: block;
+}
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #f77f00;
+    font-weight: bold;
+    width: 50px;
+    margin-bottom: 5px;
+    border-color: #f77f00;
+    border-radius: 5px;
+}
+
+#btn-final{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    width: 150px;
+    margin-bottom: 5px;
+    border-color: #121110;
+    border-radius: 5px;
+    background-color: #f77f00;
+}
+
+
+
+
+
+@media (max-width:480px) {
+
+    .main{
+        margin-top: 50px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    button{
+        display: flex
+        
+       
+    }
+    body {
+        background-image: url("5.webp");
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-weight: bold;
+        text-align: center;
+        font-family: scoreboard;
+    }
+    #home-score, #guest-score{
+        text-shadow: 2px 2px 5px #f77f00;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        height: 20px;
+        width: 50px;
+    }
+    #btn-final{
+        display: block;
+        margin: 1px auto;
+    }
+    
+}
